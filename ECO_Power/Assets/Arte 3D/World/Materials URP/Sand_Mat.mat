@@ -116,7 +116,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _Specular: 2
     - _SpecularHighlights: 1
-    - _Specular_Intensity: 0
+    - _Specular_Intensity: 3
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
