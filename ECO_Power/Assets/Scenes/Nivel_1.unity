@@ -97,8 +97,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 97125ccde4edb2043826f191a3ac4c0a,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: d9adbe361be394945a2b885123133a98,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2838,7 +2840,7 @@ Transform:
   - {fileID: 1979300414}
   - {fileID: 1599182105}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &165638453
 PrefabInstance:
@@ -9002,7 +9004,7 @@ Transform:
   - {fileID: 212045533}
   - {fileID: 1942168101}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &492406505
 PrefabInstance:
@@ -15489,6 +15491,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913115989}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reiniciar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MovimientoPersonaje, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5438812974683561841, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_Name
@@ -15497,7 +15529,7 @@ PrefabInstance:
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.59
+      value: 1.5205479
       objectReference: {fileID: 0}
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
@@ -15507,7 +15539,7 @@ PrefabInstance:
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.78
+      value: 1.75032
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb3379fd0740f584cbdfaded235a51fa, type: 3}
@@ -16127,7 +16159,7 @@ Transform:
   - {fileID: 1589195686}
   - {fileID: 1007992491}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &891261135
 PrefabInstance:
@@ -16667,7 +16699,7 @@ Transform:
   - {fileID: 1663148162}
   - {fileID: 479938883}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &936688554
 PrefabInstance:
@@ -16940,7 +16972,7 @@ Transform:
   - {fileID: 1718464114}
   - {fileID: 1475929968}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937090995
 GameObject:
@@ -23929,7 +23961,7 @@ Transform:
   - {fileID: 849524666}
   - {fileID: 1594409925}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1344747168
 PrefabInstance:
@@ -24457,7 +24489,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1385087168
 GameObject:
@@ -31933,6 +31965,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 913115989}
+    - target: {fileID: 5162805176560255724, guid: eb3379fd0740f584cbdfaded235a51fa,
+        type: 3}
+      propertyPath: entro.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reiniciar
+      objectReference: {fileID: 0}
     - target: {fileID: 5438812974683561841, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_Name
@@ -31946,7 +31988,7 @@ PrefabInstance:
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.59
+      value: 1.630701
       objectReference: {fileID: 0}
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
@@ -31956,7 +31998,7 @@ PrefabInstance:
     - target: {fileID: 6002419058325208407, guid: eb3379fd0740f584cbdfaded235a51fa,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.78
+      value: 1.7584319
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb3379fd0740f584cbdfaded235a51fa, type: 3}
@@ -32202,7 +32244,7 @@ PrefabInstance:
     - target: {fileID: 7698376349241292013, guid: 162687f0a4692ab46b288f4bd39d6992,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7698376349241292013, guid: 162687f0a4692ab46b288f4bd39d6992,
         type: 3}
@@ -33482,7 +33524,7 @@ Transform:
   - {fileID: 718387252}
   - {fileID: 803973844}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1913252726
 MonoBehaviour:
@@ -34592,7 +34634,7 @@ Transform:
   - {fileID: 1087447365}
   - {fileID: 758997886}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1953513992
 PrefabInstance:
